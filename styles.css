@@ -31,13 +31,11 @@ body {
     background: #1f2937;
     color: #f9faf8;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 100px 100px;
     gap: 32px;
 }
-
-
 
 .image {
     background: #8090a5;
@@ -62,8 +60,7 @@ body {
 
 .boxes {
     display: flex;
-    justify-content: center;
-    gap: 32px;
+    justify-content: space-evenly;
 }
 
 .information {
@@ -79,7 +76,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 100px;
+    margin: 50px;
+    padding: 0 100px;
 }
 
 .quote .text {
@@ -89,8 +87,9 @@ body {
 }
 
 .end-quote {
-    display: flex;
-    align-items: flex-end;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 h3 {
     text-align: center;
